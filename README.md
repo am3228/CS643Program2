@@ -1,4 +1,4 @@
-## CS643 Program Assignment 2
+## CS643 Programming Assignment 2
 #### Student: Angela Murphy
 
 ### Github link to project:

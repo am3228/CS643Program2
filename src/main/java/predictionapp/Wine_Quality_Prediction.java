@@ -14,7 +14,7 @@ public class Wine_Quality_Prediction {
 
     public static void main(String[] args) throws IOException {
 
-        SparkSession spark = SparkSession.builder().appName("Pooja_Wine_Quality_Prediction_app").master("local").getOrCreate();
+        SparkSession spark = SparkSession.builder().appName("Wine_Quality_Prediction_app").master("local").getOrCreate();
 
         Dataset<Row> testdata = spark.read()
                 .option("header", true)

@@ -201,7 +201,7 @@ public class Wine_Quality_Training {
 
     public static void main(String[] args) throws IOException {
         System.out.println("Wine Quality Training");
-        SparkSession spark = SparkSession.builder().appName("Pooja_Wine_Quality_Training_App").master("local").getOrCreate();
+        SparkSession spark = SparkSession.builder().appName("Wine_Quality_Training_App").master("local").getOrCreate();
         cleanTrainData(spark, true);
         cleanValidData(spark, true);
         logisticRegressionModel(spark);
